@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 1400px;
+    background-image: url("../img/auto.png"), url("../img/garage.jpg");
+    background-attachment: scroll, fixed;
+    background-position: bottom , center;
+    background-size: 75% , cover;
+    background-repeat: no-repeat, no-repeat;
+}
+
