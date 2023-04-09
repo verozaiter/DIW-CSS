@@ -1,0 +1,64 @@
+/*
+BODY #324e5c
+UNO #45b09c #6fd6c3
+DOS #f73955 #f8697e
+TRES #efc94c #f4d777
+CUATRO #2a96bd #5dbbdd
+
+*/
+
+
+
+body{
+	padding: 100px;
+	background-color: #324e5c;
+}
+
+#uno, #dos, #tres, #cuatro{
+	width: 241px;
+	height: 234px;
+}
+
+#uno{
+	background-color: #45b09c;
+	background-image: url("../img/1.png");
+	float: left;
+}
+
+#uno:hover{
+	background-color: #6fd6c3 ;
+}
+
+
+#dos{
+	background-color: #f73955  ;
+	background-image: url("../img/2.png");
+	float: left;
+}
+
+#dos:hover{
+	background-color: #f8697e ;
+}
+
+
+#tres{
+	background-color: #efc94c;
+	background-image: url("../img/4.png");
+	clear: left;
+	float: left;
+}
+
+#tres:hover{
+	background-color: #f4d777 ;
+}
+
+#cuatro{
+	background-color: #2a96bd ;
+	background-image: url("../img/3.png");
+	float: left;
+}
+
+#cuatro:hover{
+	background-color: #5dbbdd ;
+}
+
