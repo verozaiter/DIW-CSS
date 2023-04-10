@@ -1,0 +1,83 @@
+*{margin:0; padding:0;}
+
+body{
+	background-color: #CAD5F3;
+}
+
+/* HEADER */
+header{
+	background-image: url("../img/fondo.jpg");
+	padding: 50px 0;
+}
+
+h1{
+	background-color: #293F9B;
+	color: white;
+	text-align: center;
+
+	margin: 0 auto;
+	width: 250px;
+	letter-spacing: 3px;
+	padding: 30px;
+}
+
+/* MAIN */
+
+main{
+	background-color: white;
+	margin: 0 auto;
+	width: 1024px;
+	padding: 30px;
+}
+
+/* SECCION UNO */
+
+h2{
+	border-bottom: dashed 1px;
+	margin-bottom: 10px;
+}
+
+h2, strong{
+	color: #E83F07;
+}
+
+p{
+	margin-bottom: 10px;
+}
+
+/* SECCION DOS */
+
+img{
+	width: 320px;
+}
+
+figcaption{
+	border-top: 1px solid #293F9B;
+	border-bottom: 1px solid #293F9B;
+	text-align: center;
+	margin: 10px 0;
+	padding: 10px 0;
+}
+
+/* SECCION TRES  */
+
+ul{
+	list-style-image: url("../img/flecha.png");
+	padding-left: 18px;
+}
+
+ul li{
+	border-bottom: 1px dashed #CAD5F3;
+	padding-left: 10px;
+}
+
+/* FOOTER */
+
+footer{
+	text-align: center;
+	letter-spacing: 3px;
+	color: #293F9B;
+	border-top: 1px dashed;
+	margin-top:10px;
+	padding-top: 5px;
+}
