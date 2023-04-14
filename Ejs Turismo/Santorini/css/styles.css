@@ -4,6 +4,10 @@ body{
 	background-color: #CAD5F3;
 }
 
+html{
+	scroll-behavior: smooth;
+}
+
 /* HEADER */
 header{
 	background-image: url("../img/fondo.jpg");
@@ -16,10 +20,40 @@ h1{
 	text-align: center;
 
 	margin: 0 auto;
-	width: 250px;
+	width: 300px;
 	letter-spacing: 3px;
 	padding: 30px;
 }
+
+header nav{
+	width: 400px;
+	margin: 20px auto;
+}
+
+header nav ul{
+	list-style-type: none;
+	text-align: center;
+}
+
+header nav ul li{
+	display: inline-block;
+	width: 100px;
+}
+
+ header nav ul li a{
+	display: block;
+	background-color: white;
+	color: rgb(24, 24, 114);
+	letter-spacing: 1px;
+	padding: 5px;
+	text-decoration: none;
+	text-align: center;
+ }
+
+ header nav ul li a:hover{
+	background-color:rgb(24, 24, 114);
+	color: white;
+ }
 
 /* MAIN */
 
@@ -28,6 +62,28 @@ main{
 	margin: 0 auto;
 	width: 1024px;
 	padding: 30px;
+}
+
+section {
+	margin-bottom: 220px;
+	padding-top: 20px;
+}
+
+section a{
+	display: block;
+	width: 100px;
+	background-color: blue;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	padding: 5px;
+	border-radius: 3px;
+	margin-top: 20px;
+}
+
+section a:hover{
+	background-color: skyblue;
+	color: blue;
 }
 
 /* SECCION UNO */
@@ -61,12 +117,12 @@ figcaption{
 
 /* SECCION TRES  */
 
-ul{
+section ul{
 	list-style-image: url("../img/flecha.png");
 	padding-left: 18px;
 }
 
-ul li{
+section ul li{
 	border-bottom: 1px dashed #CAD5F3;
 	padding-left: 10px;
 }
