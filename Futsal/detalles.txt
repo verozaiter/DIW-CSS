@@ -1,0 +1,20 @@
+FONDO
+
+#135264 + trama
+
+CONTENEDOR
+1024px
+
+FUENTE
+Fira Sans (Google Fonts)
+
+TÍTULOS
+#F79321
+#135264
+#6CC0DC
+
+IMÁGENES (SIN LA DEL LOGO)
+Bordes
+6px solid #F79321
+6px solid #135264
+
