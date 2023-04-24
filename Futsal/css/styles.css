@@ -15,7 +15,7 @@ html{
 	scroll-behavior: smooth;
 }
 
-main{
+main, header{
     background-color: white;
     width: 1024px;
     margin: 0 auto;
@@ -30,27 +30,23 @@ main{
     text-align: center;
 }
 
-section:nth-of-type(odd) div{
-    padding: 30px;
-}
-
-section nav{
+header nav{
 	width: 500px;
 	margin: 20px auto;
     padding-top: 5px;
 }
 
-section nav ul{
+header nav ul{
 	list-style-type: none;
 	text-align: center;
 }
 
-section nav ul li{
+header nav ul li{
 	display: inline-block;
     background-color: black;
 }
 
-section nav ul li a{
+header nav ul li a{
     display: inline-block;
     height: 40px;
     width: 150px;
@@ -60,41 +56,47 @@ section nav ul li a{
     padding: 10px;
  }
 
-section nav ul li a:hover{
+header nav ul li a:hover{
 	background-color: #135264;
     color: #F79321;
  }
 
-section:nth-of-type(2) div{
-    background-image: url("../img/01.jpg");  
-}
-section:nth-of-type(4) div{
-    background-image: url("../img/02.jpg");  
-}
-section:nth-of-type(6) div{
-    background-image: url("../img/03.jpg");  
+
+
+section:nth-of-type(even), header{
+    padding: 30px;
 }
 
-section:nth-last-of-type(even) div{
-    height: 290px;
-    background-size: cover; 
+section a {
+    display: inline-block;
+    padding-top: 40px;
+}
+
+
+section:nth-last-of-type(even) img{
+    width: 100%;
     border-top: 6px solid #F79321;
     border-bottom: 6px solid #135264; 
 }
 
-
-#h31{
+section:nth-of-type(2) h3 {
     color: #F79321;
 }
 
-#h32{
+section:nth-of-type(4) h3{
     color: #6CC0DC
 }
 
-#h33{
+section:nth-of-type(6) h3{
     color: #135264;
 }
 
 p{
+    padding-top: 15px;
+}
+
+section ul{
+    list-style-position: inside;
+    list-style-image: url("../img/ball.png");
     padding-top: 15px;
 }
