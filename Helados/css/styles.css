@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box; /*considera al WIDTH como el ancho FINAL de mi caja */
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+#logo{
+    margin: 0 auto;
+    display: block;
+    padding: 25px;
+}
+
+header nav{
+	width: 100%;
+}
+
+header nav ul{
+	list-style-type: none;
+	text-align: center;
+    background-color: #fbcbcb;
+}
+
+header nav ul li{
+	display: inline-block;
+}
+
+header nav ul li a{
+    display: inline-block;
+    height: 40px;
+    width: 150px;
+	letter-spacing: 1px;
+	text-decoration: none;
+    padding: 10px;
+    color: black;
+ }
+
+header nav ul li a:hover{
+	background-color: black;
+    color:#fbcbcb;
+}
+
+section:nth-of-type(1){
+    height: 350px;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 3rem;
+    background-image: url("../img/patron-parallax.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section:nth-of-type(2) {
+    width: 1300px;
+    margin: 0 auto;
+    padding: 50px;
+    padding-bottom: 0;
+}
+
+section:nth-of-type(2) article{
+    display: inline-block;
+    text-align: center;
+    width: 400px;
+    padding: 20px;
+    padding-bottom: 50px;
+    margin: -2px;
+    color: white;
+}
+
+section:nth-of-type(2) article:nth-of-type(1){
+    background-color: #7d7dc5;
+}
+section:nth-of-type(2) article:nth-of-type(2){
+    background-color: #ff7fbc;
+}
+section:nth-of-type(2) article:nth-of-type(3){
+    background-color: #7cbee6;
+}
+
+section:nth-of-type(2) article img{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 20px;
+}
+section:nth-of-type(2) article p{
+    margin: 15px;
+    margin-bottom: 25px;
+}
+section:nth-of-type(2) article a{
+    display: inline-block;
+    padding: 15px;
+    width: 200px;
+    height: 50px;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    border-top-left-radius: 25px 25px;
+    border-top-right-radius: 25px 25px;
+    border-bottom-right-radius: 25px 25px;
+    border-bottom-left-radius: 25px 25px;
+}
+
+section:nth-of-type(3) {
+    width: 1300px;
+    margin: 0 auto;
+    padding: 50px;
+    display: flex;
+}
+
+section:nth-of-type(3) article {
+    display: flex;
+    padding: 20px;
+}
+section:nth-of-type(3) article p {
+    padding: 20px;
+}
+
+section:nth-of-type(3) article:nth-of-type(1){
+    background-color: #06eff2;
+}
+section:nth-of-type(3) article:nth-of-type(2){
+    background-color: #ff7fbc;
+}
+
+section:nth-of-type(3) article h2{
+    color: white;
+    padding: 20px;
+}
+
+
+
+footer{
+    background-color: rgb(251,203,203);
+    padding: 10px 5px 5px 5px;
+}
+
+footer nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+footer nav ul div{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: inline-block;
+    background-position: -2px -2px;
+}
+
+footer nav ul div:hover{
+    background-color: #80746b;
+}
+
+footer nav ul div li{
+    width: 50px;
+    height: 50px;  
+}
+
+   
+   /* facebook */
+footer nav ul div:nth-of-type(1){
+    background-image: url("../img/fb.png");
+}
+   
+   /* instagram */
+footer nav ul div:nth-of-type(2){
+    background-image: url("../img/ins.png");
+}
+   
+   /* pinterest */
+footer nav ul div:nth-of-type(3){
+    background-image: url("../img/pin.png");
+}
+
+    /* twitter */
+footer nav ul div:nth-of-type(4){
+    background-image: url("../img/tw.png");
+}
+   
+
